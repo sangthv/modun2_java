@@ -1,4 +1,4 @@
-package thuchanh.timMaxmang;
+package thuchanh.timViTrimang;
 
 import java.util.Scanner;
 
