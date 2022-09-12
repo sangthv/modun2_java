@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class phuongTrinhBac2 {
     double a, b , c;
-    Scanner src = new Scanner(System.in);
     public phuongTrinhBac2(){
     }
     public phuongTrinhBac2(double a, double b, double c){
@@ -29,11 +28,12 @@ public class phuongTrinhBac2 {
         return  x3;
     }
     public void nhap(){
-        System.out.println("nhap so a: ");
+        Scanner src = new Scanner(System.in);
+        System.out.print("nhap so a: ");
         a = src.nextDouble();
-        System.out.println("nhap so b: ");
+        System.out.print("nhap so b: ");
         b = src.nextDouble();
-        System.out.println(" nhap so c: ");
+        System.out.print(" nhap so c: ");
         c = src.nextDouble();
     }
     public void xuat(){
