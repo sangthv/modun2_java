@@ -30,7 +30,6 @@ public class Circle {
     public double DienTich(){
         return Math.PI*this.radius*this.radius;
     }
-
     @Override
     public String toString() {
         return "Circle{" +
