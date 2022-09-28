@@ -1,7 +1,7 @@
 package thuchanh.TrienKhaiStackSDLinkedlist;
 
 public class GenericStackClient {
-    private static void stackOfIStrings(){
+    public static void stackOfIStrings(){
         MyGenericStack <String> stack = new MyGenericStack<String>();
         stack.push("five");
         stack.push("four");
@@ -15,7 +15,7 @@ public class GenericStackClient {
         }
         System.out.println("\n1.3. size of stack after pop operations : " + stack.size());
     }
-    private static void stackOfIntegers(){
+    public static void stackOfIntegers(){
         MyGenericStack <Integer> stack = new MyGenericStack<Integer>();
         stack.push(5);
         stack.push(4);
